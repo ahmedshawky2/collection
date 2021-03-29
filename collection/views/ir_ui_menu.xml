@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <menuitem id="parent_menu_collection" name="collection" action="action_collection" sequence="3001" web_icon="collection,static/description/icon.png" groups="collection.collection_group_employee,collection.collection_group_admin"/>
+
+
+
+
+
+</odoo>     
