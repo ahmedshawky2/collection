@@ -40,7 +40,7 @@ class lov (models.Model):
     workflow = fields.Char(string='WorkFlow',index=True)
     state = fields.Char(string='State',index=True)
     last_followup_action = fields.Char(string='Last Followup Action',index=True)
-    last_followup_date = fields.datetime(string='Last Followup Date',index=True)
+    last_followup_date = fields.Datetime(string='Last Followup Date',index=True)
     last_followup_feedback = fields.Char(string='Last Followup Feedback',index=True)
     last_follow_up_notes = fields.Char(string='Last Follow Up Notes',index=True)
     next_action = fields.Char(string='Next Action',index=True)
